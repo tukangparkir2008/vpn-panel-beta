@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Dropbear config (local SSH for stunnel/WS)
 DROPBEAR_PORT=2253
 msg_info "Configuring Dropbear on port ${DROPBEAR_PORT}..."
