@@ -26,7 +26,7 @@ echo "$DOMAIN" > /root/domain
 export DEBIAN_FRONTEND=noninteractive
 
 msg_info "Updating system and installing packages..."
-apt-get update -y && apt-get upgrade -y
+#apt-get update -y && apt-get upgrade -y
 apt-get install -y sudo curl ca-certificates lsb-release gnupg \
   software-properties-common build-essential cmake make gcc git net-tools iproute2 iptables ufw \
   nginx stunnel4 dropbear certbot cron easy-rsa openvpn
